@@ -1,6 +1,6 @@
 ---
 title: "HW1_report"
-author: "Wentong"
+author: "WentongLiu"
 date: "9/26/2021"
 output: pdf_document
 ---
@@ -32,10 +32,10 @@ A discrete quantitative variable
 
 ```{r}
 problem_2.1 = c(45, 39, 25, 47, 49, 5, 70, 99, 74, 37, 99, 35, 8, 59)
-mean(problem_2.1)
-median(problem_2.1)
-max(problem_2.1) - min(problem_2.1)
-sd(problem_2.1)
+mean(problem_2.1)                       # mean of the data
+median(problem_2.1)                     # median of the data
+max(problem_2.1) - min(problem_2.1)     # range of the data
+sd(problem_2.1)                         # sd of the data
 ```
 
 ### b)Describe the box plot and the underlying distribution of the data. Use some of the following terms:left-skewed, right-skewed, symmetric, bimodal, unimodal distribution.
@@ -44,7 +44,7 @@ sd(problem_2.1)
 boxplot(problem_2.1,horizontal = TRUE)
 hist(problem_2.1)
 ```
-According to the plots, the data of the bike crash is right-skewed and an unimodal distribution.
+According to the plots, the data of the bike crash is right-skewed and an bimodal distribution.
 
 ### Additionally, 140 individuals with a recent car crash history also participated in the study.The depression scores for 13 of these individualsare given below:
 ### 67, 50, 85, 43, 64, 35, 47, 97, 58, 58, 10, 56, 50
@@ -62,7 +62,7 @@ boxplot(problem_2.1, problem_2.2, names = types, horizontal = TRUE,
 ```{r}
 hist(problem_2.2, xlab = "the depression scores", ylab = "scores frequency")
 ```
-According to the plots, the data of the bike crash is right-skewed and an unimodal distribution and the data of the car crash is an unimodal distribution.
+According to the plots, the data of the bike crash is right-skewed and an bimodal distribution and the data of the car crash is also right-skewed but an unimodal distribution.
 
 ### c)Comparing the 2 box plots,which group appears to have a lower typical depression score?
 The plots show that the bike crash group have a lower typical depression score.
@@ -73,7 +73,7 @@ The plots show that the bike crash group have a lower typical depression score.
 
 
 
-### b)Let’s define the event Bas “number 10 appears”. What is the probability of the event B?
+### b)Let’s define the event B as “number 10 appears”. What is the probability of the event B?
 
 
 
